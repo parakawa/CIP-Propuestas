@@ -1,0 +1,54 @@
+$menu:#003160;
+
+h2{
+	font-size:30px;
+	color:$menu;
+}
+nav{
+	background-color:$menu;
+	padding:21px 0;
+}
+
+.navigation{
+	letter-spacing: normal;
+    max-width: 100%;
+    li{
+    	width: 16%;
+	    margin: none;
+	    text-align: center;
+	    text-transform: uppercase;
+	    font-size: 16px;
+	    line-height: 20px;
+	    li:nth-child(6){
+	    	width: 20%;
+	    }
+	    img{
+	    	border: 0;
+		    vertical-align: top;
+		    text-align: left;
+	    }
+    }
+}
+
+.cursos{
+	background: url('../images/bg-cursos.jpg') repeat;
+	.container{
+		-webkit-box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+	}
+	.bg-white{
+		background-color:white;
+	}
+	.file1{
+		padding: 50px 80px;
+		text-align:justify;
+		h2{
+			font-weight: 900;
+		}
+	}
+	.filtering-nav{
+		margin: 0px 0px 30px 0;
+    	padding: 10px 0px 15px 65px;
+   		border-top: 1px solid #b4b4b4;
+    	border-bottom: 1px solid #b4b4b4;
+	}
+}
