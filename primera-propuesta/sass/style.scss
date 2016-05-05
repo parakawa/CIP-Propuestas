@@ -79,6 +79,7 @@ nav{
 	.curso{
 		background-color: $bg-curso;
 		width: 100%;
+		height: 400px;
 		img{
 				width: 100%;
 			}
@@ -86,6 +87,12 @@ nav{
 			padding: 17px;
 			h5 a{
 				font-size: 14px;
+			}
+			h5{
+				  font-size: 1 rem;
+				  line-height: 68%;
+				  margin: -15px -5px 0;
+
 			}
 			p{
 				font-size: 12px;

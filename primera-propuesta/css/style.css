@@ -59,13 +59,18 @@ nav {
         padding: 8px 5px 8px 5px; }
   .cursos .curso {
     background-color: #D7D7D7;
-    width: 100%; }
+    width: 100%;
+    height: 400px; }
     .cursos .curso img {
       width: 100%; }
     .cursos .curso .desc {
       padding: 17px; }
       .cursos .curso .desc h5 a {
         font-size: 14px; }
+      .cursos .curso .desc h5 {
+        font-size: 1 rem;
+        line-height: 68%;
+        margin: -15px -5px 0; }
       .cursos .curso .desc p {
         font-size: 12px; }
     .cursos .curso .certificado {
