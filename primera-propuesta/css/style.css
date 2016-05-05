@@ -14,8 +14,9 @@ nav {
     margin: none;
     text-align: center;
     text-transform: uppercase;
-    font-size: 16px;
     line-height: 20px; }
+    .navigation li a {
+      font-size: 14px; }
     .navigation li li:nth-child(6) {
       width: 20%; }
     .navigation li img {
@@ -35,9 +36,49 @@ nav {
     .cursos .file1 h2 {
       font-weight: 900; }
   .cursos .filtering-nav {
-    margin: 0px 0px 30px 0;
-    padding: 10px 0px 15px 65px;
+    margin: 0 auto;
+    padding: 0px 0px 58px 65px;
     border-top: 1px solid #b4b4b4;
     border-bottom: 1px solid #b4b4b4; }
+    .cursos .filtering-nav li {
+      float: left;
+      background: #CCC;
+      margin-right: 5px;
+      margin-top: 5px;
+      padding: 8px 5px 8px 5px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 12px; }
+      .cursos .filtering-nav li a {
+        color: black;
+        font-weight: 700;
+        font-size: 10px; }
+      .cursos .filtering-nav li .active a {
+        color: #FFF;
+        background-color: #003160;
+        padding: 8px 5px 8px 5px; }
+  .cursos .curso {
+    background-color: #D7D7D7;
+    width: 100%; }
+    .cursos .curso img {
+      width: 100%; }
+    .cursos .curso .desc {
+      padding: 17px; }
+      .cursos .curso .desc h5 a {
+        font-size: 14px; }
+      .cursos .curso .desc p {
+        font-size: 12px; }
+    .cursos .curso .certificado {
+      background-color: #660000;
+      color: white;
+      border-radius: 4px; }
+      .cursos .curso .certificado p {
+        font-size: 11px;
+        padding: 5px;
+        text-align: center; }
+  .cursos .row {
+    padding: 10px 65px; }
+  .cursos .clear {
+    clear: both; }
 
 /*# sourceMappingURL=style.css.map */
