@@ -1,0 +1,28 @@
+.header > .container.align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 50%;
+}
+
+.cbp-l-grid-agency-title.no-overflow{
+	white-space: normal;
+}
+
+.cbp-title-dark .duration{
+	padding: 6px 0;
+}
+
+.cbp-title-dark .duration p{
+	margin: 0;
+}
+
+.certificado {
+      background-color: white;
+      color: white;
+      border-radius: 4px; 
+      text-align: left;
+      font-style: italic;
+      margin-top: 25px;
+
+}
