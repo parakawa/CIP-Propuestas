@@ -5,6 +5,7 @@
   max-width: 50%;
 }
 
+
 .cbp-l-grid-agency-title.no-overflow{
 	white-space: normal;
   height: 60px;
@@ -64,4 +65,8 @@
 .inscripcion p{
   font-weight: 700;
   font-size: 14px;
+}
+
+a{
+  color: black;
 }

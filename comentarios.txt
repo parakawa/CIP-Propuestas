@@ -1,0 +1,9 @@
+Tercera propuesta
+
+X 11/05
+
+Home
+
+-header: page_home14.html es la v.6 unify
+-banner: page_home8.html
+-section cursos: page_home8.html

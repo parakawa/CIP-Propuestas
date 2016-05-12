@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-	<title>Portfolio 3 Columns Grid Text | Unify - Responsive Website Template</title>
+	<title>Discover | Unify - Responsive Website Template</title>
 
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -15,21 +15,26 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<!-- Web Fonts -->
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin">
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
 
 	<!-- CSS Global Compulsory -->
 	<link rel="stylesheet" href="assets/plugins/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 
 	<!-- CSS Header and Footer -->
-	<link rel="stylesheet" href="assets/css/header-default.css">
+	<link rel="stylesheet" href="assets/css/header-v6.css">
+
 
 	<!-- CSS Implementing Plugins -->
 	<link rel="stylesheet" href="assets/plugins/animate.css">
 	<link rel="stylesheet" href="assets/plugins/line-icons.css">
 	<link rel="stylesheet" href="assets/plugins/font-awesome.min.css">
-	<link rel="stylesheet" href="assets/plugins/cubeportfolio.min.css">
-	<link rel="stylesheet" href="assets/plugins/custom-cubeportfolio.css">
+
+
+	<!--[if lt IE 9]><link rel="stylesheet" href="assets/plugins/sky-forms-pro/skyforms/css/sky-forms-ie8.css"><![endif]-->
+
+	<!-- CSS Page Style -->
+	<link rel="stylesheet" href="assets/css/page_search.css">
 
 	<!-- CSS Theme -->
 	<link rel="stylesheet" href="assets/css/default.css" id="style_color">
@@ -39,368 +44,210 @@
 	<link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
-<body class="header-fixed">
+<body>
 	<div class="wrapper">
-		<!--=== Header ===-->
-		<div class="header">
-			<div class="container align-center">
-				<!-- Logo -->
-				<a class="logo" href="index.html">
-					<img src="assets/img/logo1-default.png" alt="Logo">
-				</a>
-				<!-- End Logo -->
-				<div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
+		<!--=== Header v6 ===-->
+		<div class="header-v6 header-classic-white header-sticky">
+			<!-- Navbar -->
+			<div class="navbar mega-menu" role="navigation">
 				<div class="container">
-					<ul class="nav navbar-nav">
-						<!-- Home -->
-						<li>
-							<a href="#">
-								INICIO
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="menu-container">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+						<!-- Navbar Brand -->
+						<div class="navbar-brand">
+							<a href="index.html">
+								<img class="shrink-logo" src="assets/img/logo1-default.png" alt="Logo">
 							</a>
-							
-						</li>
-						<!-- End Home -->
-
-						<!-- Pages -->
-						<li>
-							<a href="#">
-								CURSOS
-							</a>
-							
-						</li>
-						<!-- End Pages -->
-
-						<!-- Blog -->
-						<li>
-							<a href="#">
-								DIPLOMADOS
-							</a>
-
-						</li>
-						<!-- End Blog -->
-
-						<!-- Portfolio -->
-						<li>
-							<a href="#">
-								MASTERS
-							</a>
-
-						</li>
-						<!-- End Portfolio -->
-
-						<!-- Features -->
-						<li>
-							<a href="#">
-								UNICLOUD
-							</a>
-							
-						</li>
-						<!-- End Features -->
-
-					
-
-						<!-- Demo Pages -->
-						<li>
-							<a href="#">
-								CAMPUS VIRTUAL
-							</a>
-						
-						</li>
-						<!-- End Demo Pages -->
+						</div>
+						<!-- ENd Navbar Brand -->
 
 						
-					</ul>
-				</div><!--/end container-->
-			</div><!--/navbar-collapse-->
+					</div>
 
-				
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navbar-responsive-collapse">
+						<div class="menu-container">
+							<ul class="nav navbar-nav">
+								<!-- Home -->
+								<li class="dropdown active">
+									<a href="index.html" class="dropdown-toggle">
+										Inicio
+									</a>
+								</li>
+								<!-- End Home -->
 
-				
-			</div><!--/end container-->
+								<!-- Pages -->
+								<li class="dropdown">
+									<a href="cursos.html" class="dropdown-toggle">
+										Cursos
+									</a>
+								</li>
+								<!-- End Pages -->
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			
-		</div>
-		<!--=== End Header ===-->
+								<!-- Blog -->
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle">
+										Diplomados
+									</a>
+								</li>
+								<!-- End Blog -->
 
-		
+								<!-- Portfolio -->
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle">
+										Masters
+									</a>
+								</li>
+								<!-- End Portfolio -->
 
-		<!--=== Cube-Portfdlio ===-->
-		<div class="cube-portfolio container margin-bottom-60">
-			<div class="content-xs">
-				<div id="filters-container" class="cbp-l-filters-text content-xs">
-					<div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> Todos </div> |
-					<div data-filter=".programacion" class="cbp-filter-item"> Programación </div> |
-					<div data-filter=".bbdd" class="cbp-filter-item"> BBDD y Redes  </div> |
-					<div data-filter=".sistemas" class="cbp-filter-item"> Sistemas </div> |
-					<div data-filter=".negocios" class="cbp-filter-item"> Negocios y Economía </div>
-					<div data-filter=".docencia" class="cbp-filter-item"> Docencia y TIC's </div>
-					<div data-filter=".marketing" class="cbp-filter-item"> Marketing y Diseño Digital</div>
-					<div data-filter=".ingenieria" class="cbp-filter-item"> Ingeniería y Multimedia</div>
-					<div data-filter=".gestion" class="cbp-filter-item">Gestión de Proyectos y Ofimática </div>
-				</div><!--/end Filters Container-->
+								<!-- Features -->
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle">
+										Unicloud
+									</a>
+								</li>
+								<!-- End Features -->
+
+								<!-- Shortcodes -->
+								<li class="dropdown mega-menu-fullwidth">
+									<a href="http://unitech.pe/unicampus/" class="dropdown-toggle" >
+										Campus Virtual
+									</a>
+								</li>
+								<!-- End Shortcodes -->
+
+								<!-- Demo Pages -->
+								<!-- End Demo Pages -->
+							</ul>
+						</div>
+					</div><!--/navbar-collapse-->
+				</div>
 			</div>
-
-			<div id="grid-container" class="cbp-l-grid-agency">
-				<div class="cbp-item bbdd marketing negocios gestion">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="assets/img/cursos/pe9.jpg" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title no-overflow">Desarrollo de Aplicaciones Web .NET Framework 4.0 Básico</div>
-						
-						<div class="certificado">
-                 		 	<p>Certificado por la Escuela Central de Posgrado de la Universidad Nacional de Ingeniería</p>
-                		</div>
-                		<div class="duration">
-							<p>Duración: 60 horas</p>
-							<p>Modalidad: e-Learning / blended-Learning</p>
-						</div>
-						
-					</div>
-				</div>
-				<div class="cbp-item programacion gestion sistemas">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="assets/img/cursos/pe1.jpg" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title no-overflow">Gestión de máquinas virtuales, clustering, rendimiento y backup en vsphere y microsoft hyper-v</div>
-						
-						<div class="certificado">
-                 		 	<p>Certificado por la Escuela Central de Posgrado de la Universidad Nacional de Ingeniería</p>
-                		</div>
-                		<div class="duration">
-							<p>Duración: 60 horas</p>
-							<p>Modalidad: e-Learning / blended-Learning</p>
-						</div>
-						
-					</div>
-				</div>
-				<div class="cbp-item bbdd gestion docencia negocios">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="assets/img/cursos/pe2.jpg" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title no-overflow">Javascript, HTML5 y CSS3</div>
-						
-						<div class="certificado">
-                 		 	<p>Certificado por la Escuela Central de Posgrado de la Universidad Nacional de Ingeniería</p>
-                		</div>
-                		<div class="duration">
-							<p>Duración: 60 horas</p>
-							<p>Modalidad: e-Learning / blended-Learning</p>
-						</div>
-						
-					</div>
-				</div>
-				<div class="cbp-item sistemas marketing ingenieria bbdd">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="assets/img/cursos/pe3.jpg" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title no-overflow">Python y Django</div>
-						
-						<div class="certificado">
-                 		 	<p>Certificado por la Escuela Central de Posgrado de la Universidad Nacional de Ingeniería</p>
-                		</div>
-                		<div class="duration">
-							<p>Duración: 60 horas</p>
-							<p>Modalidad: e-Learning / blended-Learning</p>
-						</div>
-						
-					</div>
-				</div>
-				<div class="cbp-item programacion negocios sistemas">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="assets/img/cursos/pe4.jpg" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title no-overflow">Enterprise Design Patterns con .NET</div>
-						
-						<div class="certificado">
-                 		 	<p>Certificado por la Escuela Central de Posgrado de la Universidad Nacional de Ingeniería</p>
-                		</div>
-                		<div class="duration">
-							<p>Duración: 60 horas</p>
-							<p>Modalidad: e-Learning / blended-Learning</p>
-						</div>
-						
-					</div>
-				</div>
-				<div class="cbp-item gestion ingenieria marketing">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="assets/img/cursos/pe5.jpg" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title no-overflow">
-						ASP.NET y Caches</div>
-						
-						<div class="certificado">
-                 		 	<p>Certificado por la Escuela Central de Posgrado de la Universidad Nacional de Ingeniería</p>
-                		</div>
-                		<div class="duration">
-							<p>Duración: 60 horas</p>
-							<p>Modalidad: e-Learning / blended-Learning</p>
-						</div>
-						
-					</div>
-				</div>
-				<div class="cbp-item negocios gestion">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="assets/img/cursos/pe6.jpg" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title no-overflow">Diseño web con Expression Blend y XAML Avanzado</div>
-						
-						<div class="certificado">
-                 		 	<p>Certificado por la Escuela Central de Posgrado de la Universidad Nacional de Ingeniería</p>
-                		</div>
-                		<div class="duration">
-							<p>Duración: 60 horas</p>
-							<p>Modalidad: e-Learning / blended-Learning</p>
-						</div>
-						
-					</div>
-				</div>
-				<div class="cbp-item bbdd programacion docencia ingenieria">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="assets/img/cursos/pe7.jpg" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title no-overflow">Desarrollo de Aplicaciones Web .NET Framework 4.0 Básico</div>
-						
-						<div class="certificado">
-                 		 	<p>Certificado por la Escuela Central de Posgrado de la Universidad Nacional de Ingeniería</p>
-                		</div>
-                		<div class="duration">
-							<p>Duración: 60 horas</p>
-							<p>Modalidad: e-Learning / blended-Learning</p>
-						</div>
-						
-					</div>
-				</div>
-				<div class="cbp-item docencia negocios gestion">
-					<div class="cbp-caption margin-bottom-20">
-						<div class="cbp-caption-defaultWrap">
-							<img src="assets/img/cursos/pe8.jpg" alt="">
-						</div>
-						<div class="cbp-caption-activeWrap">
-							<div class="cbp-l-caption-alignCenter">
-								<div class="cbp-l-caption-body">
-									<ul class="link-captions no-bottom-space">
-										<li><a href="portfolio_single_item.html"><i class="rounded-x fa fa-link"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="cbp-title-dark">
-						<div class="cbp-l-grid-agency-title no-overflow">Desarrollo de Aplicaciones Web .NET Framework 4.0 Básico</div>
-						
-						<div class="certificado">
-                 		 	<p>Certificado por la Escuela Central de Posgrado de la Universidad Nacional de Ingeniería</p>
-                		</div>
-                		<div class="duration">
-							<p>Duración: 60 horas</p>
-							<p>Modalidad: e-Learning / blended-Learning</p>
-						</div>
-						
-					</div>
-				</div>
-			</div><!--/end Grid Container-->
+			<!-- End Navbar -->
 		</div>
-		<!--=== End Cube-Portfdlio ===-->
+		<!--=== End Header v6 ===-->
+		<!--=== Search Block ===-->
+		<div class="search-block parallaxBg">
+			<div class="container">
+				<div class="col-md-6 col-md-offset-3">
+					<h1>Descubre <span class="color-green">nuevas</span> cosas</h1>
 
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Ingresa el curso que quieres aprender ...">
+						<span class="input-group-btn">
+							<button class="btn-u btn-u-lg" type="button"><i class="fa fa-search"></i></button>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div><!--/container-->
+		<!--=== End Search Block ===-->
+		<h2 class="text-center">Todos los cursos certificados por la Universidad Nacional de Ingeniería</h2>
+		<!--=== Container Part ===-->
+	<div class="container content-md">
+
+		<ul class="row block-grid-v2">
+			<li class="col-md-4 col-sm-6 md-margin-bottom-30">
+				<a href=""><div class="easy-block-v1">
+					<img class="img-responsive" src="assets/img/img12.jpg" alt="">
+					<div class="easy-block-v1-badge rgba-purple">Programación</div>
+				</div>
+				<div class="block-grid-v2-info rounded-bottom">
+					<h3><a href="#">Programación</a></h3>
+					<p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
+				</div>
+				</a>
+			</li>
+			<li class="col-md-4 col-sm-6 md-margin-bottom-30">
+				<div class="easy-block-v1">
+					<img class="img-responsive" src="assets/img/cursos/pe38.jpg" alt="">
+					<div class="easy-block-v1-badge rgba-blue">BBDD y Redes</div>
+				</div>
+				<div class="block-grid-v2-info rounded-bottom">
+					<h3><a href="#">BBDD y Redes</a></h3>
+					<p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
+				</div>
+			</li>
+			<li class="col-md-4 col-sm-12">
+				<div class="easy-block-v1">
+					<img class="img-responsive" src="assets/img/cursos/pe18.jpg" alt="">
+					<div class="easy-block-v1-badge rgba-red">Sistemas</div>
+				</div>
+				<div class="block-grid-v2-info rounded-bottom">
+					<h3><a href="#">Sistemas</a></h3>
+					<p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
+				</div>
+			</li>
+		</ul>
+		<ul class="row block-grid-v2">
+			<li class="col-md-4 col-sm-6 md-margin-bottom-30">
+				<div class="easy-block-v1">
+					<img class="img-responsive" src="assets/img/cursos/pe57.jpg" alt="">
+					<div class="easy-block-v1-badge rgba-purple">Negocios y Economía</div>
+				</div>
+				<div class="block-grid-v2-info rounded-bottom">
+					<h3><a href="#">One Page Template</a></h3>
+					<p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
+				</div>
+			</li>
+			<li class="col-md-4 col-sm-6 md-margin-bottom-30">
+				<div class="easy-block-v1">
+					<img class="img-responsive" src="assets/img/cursos/pe99.jpg" alt="">
+					<div class="easy-block-v1-badge rgba-blue">Docencia y TIC's</div>
+				</div>
+				<div class="block-grid-v2-info rounded-bottom">
+					<h3><a href="#">Mockup Design</a></h3>
+					<p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
+				</div>
+			</li>
+			<li class="col-md-4 col-sm-12">
+				<div class="easy-block-v1">
+					<img class="img-responsive" src="assets/img/cursos/pe91.jpg" alt="">
+					<div class="easy-block-v1-badge rgba-red">Markéting y Diseño Digital</div>
+				</div>
+				<div class="block-grid-v2-info rounded-bottom">
+					<h3><a href="#">HTML5/CSS3 + PHP</a></h3>
+					<p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
+				</div>
+			</li>
+		</ul>
+		<ul class="row block-grid-v2">
+			<li class="col-md-4 col-sm-6 md-margin-bottom-30">
+				<div class="easy-block-v1">
+					<img class="img-responsive" src="assets/img/cursos/pe131.jpg" alt="">
+					<div class="easy-block-v1-badge rgba-purple">Ingeniería y Multimedia</div>
+				</div>
+				<div class="block-grid-v2-info rounded-bottom">
+					<h3><a href="#">One Page Template</a></h3>
+					<p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
+				</div>
+			</li>
+			<li class="col-md-4 col-sm-6 md-margin-bottom-30">
+				<div class="easy-block-v1">
+					<img class="img-responsive" src="assets/img/cursos/pe138.jpg" alt="">
+					<div class="easy-block-v1-badge rgba-blue">Gestión de Proyectos y Ofimática</div>
+				</div>
+				<div class="block-grid-v2-info rounded-bottom">
+					<h3><a href="#">Mockup Design</a></h3>
+					<p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
+				</div>
+			</li>
+		</ul>
+	</div><!--/container-->
+	<!--=== Container Part ===-->
 		
-	</div><!--/wrapper-->
+		<!-- End Top Categories -->
+	</div><!--/container-->
+	<!--=== End Content ===-->
+
+
 
 	<!-- JS Global Compulsory -->
 	<script type="text/javascript" src="assets/plugins/jquery.min.js"></script>
@@ -409,19 +256,15 @@
 	<!-- JS Implementing Plugins -->
 	<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
 	<script type="text/javascript" src="assets/plugins/smoothScroll.js"></script>
-	<script type="text/javascript" src="assets/plugins/jquery.cubeportfolio.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/jquery.parallax.js"></script>
+	<script type="text/javascript" src="assets/plugins/jquery.counterup.min.js"></script>
+	
 	<!-- JS Customization -->
 	<script type="text/javascript" src="assets/js/custom.js"></script>
 	<!-- JS Page Level -->
 	<script type="text/javascript" src="assets/js/app.js"></script>
-	<script type="text/javascript" src="assets/plugins/cube-portfolio-3.js"></script>
 	<script type="text/javascript" src="assets/plugins/style-switcher.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function() {
-			App.init();
-			StyleSwitcher.initStyleSwitcher();
-		});
-	</script>
+	
 <!--[if lt IE 9]>
 	<script src="assets/plugins/respond.js"></script>
 	<script src="assets/plugins/html5shiv.js"></script>
