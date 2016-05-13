@@ -1,0 +1,87 @@
+.header > .container.align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 50%;
+}
+
+
+.cbp-l-grid-agency-title.no-overflow{
+	white-space: normal;
+  height: 60px;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+
+
+}
+
+.cbp-title-dark .duration{
+	padding: 6px 0;
+}
+
+.cbp-title-dark .duration p{
+	margin: 0;
+}
+
+.certificado {
+      background-color: white;
+      color: white;
+      border-radius: 4px; 
+      text-align: left;
+      font-style: italic;
+      margin-top: 25px;
+}
+
+.inscripcion{
+  height: 240px;
+  border-radius: 14px;
+  background-color: #efeded;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inscripcion a{
+      border: 0;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 6px 13px;
+    position: relative;
+    background: #72c02c;
+    white-space: nowrap;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 14px;
+    border-radius: 5px;
+
+
+}
+
+.inscripcion p{
+  font-weight: 700;
+  font-size: 14px;
+}
+
+a{
+  color: black;
+}
+
+.modalDialog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
