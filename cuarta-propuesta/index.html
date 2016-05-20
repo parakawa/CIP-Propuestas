@@ -23,18 +23,15 @@
 
 	<!-- CSS Header and Footer -->
 	<link rel="stylesheet" href="assets/css/header-v6.css">
-
+	
 
 	<!-- CSS Implementing Plugins -->
-	<link rel="stylesheet" href="assets/plugins/animate.css">
-	<link rel="stylesheet" href="assets/plugins/line-icons.css">
-	<link rel="stylesheet" href="assets/plugins/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="assets/plugins/masterslider.css">
+	<link rel='stylesheet' href="assets/plugins/style.css">
 
-
-	<!--[if lt IE 9]><link rel="stylesheet" href="assets/plugins/sky-forms-pro/skyforms/css/sky-forms-ie8.css"><![endif]-->
-
-	<!-- CSS Page Style -->
-	<link rel="stylesheet" href="assets/css/page_search.css">
+	<!-- CSS Pages Style -->
+	<link rel="stylesheet" href="assets/css/page_one.css">
 
 	<!-- CSS Theme -->
 	<link rel="stylesheet" href="assets/css/default.css" id="style_color">
@@ -44,7 +41,7 @@
 	<link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
-<body>
+<body class="header-fixed header-fixed-space">
 	<div class="wrapper">
 		<!--=== Header v6 ===-->
 		<div class="header-v6 header-classic-white header-sticky">
@@ -68,7 +65,7 @@
 						</div>
 						<!-- ENd Navbar Brand -->
 
-						
+				
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
@@ -76,7 +73,7 @@
 						<div class="menu-container">
 							<ul class="nav navbar-nav">
 								<!-- Home -->
-								<li class="dropdown active">
+								<li class="dropdown">
 									<a href="index.html" class="dropdown-toggle">
 										Inicio
 									</a>
@@ -133,138 +130,128 @@
 			<!-- End Navbar -->
 		</div>
 		<!--=== End Header v6 ===-->
-		<!--=== Search Block ===-->
-		<div class="search-block parallaxBg">
-			<div class="container">
-				<div class="col-md-6 col-md-offset-3">
-					<h1>Descubre <span class="color-green">nuevas</span> cosas</h1>
 
-					<div class="input-group">
-						<input type="text" class="form-control" placeholder="Ingresa el curso que quieres aprender ...">
-						<span class="input-group-btn">
-							<button class="btn-u btn-u-lg" type="button"><i class="fa fa-search"></i></button>
-						</span>
-					</div>
+		<!--=== Slider ===-->
+		<div class="ms-layers-template">
+			<!-- masterslider -->
+			<div class="master-slider ms-skin-black-2 round-skin" id="masterslider">
+				<div class="ms-slide" style="z-index: 10">
+					<img src="assets/plugins/blank.gif" data-src="assets/img/img2.jpg" alt="">
+					<div class="ms-layer ms-promo-info color-light" style="left:15px; top:160px"
+					data-effect="bottom(40)"
+					data-duration="2000"
+					data-delay="700"
+					data-ease="easeOutExpo"
+					>Cursos</div>
+
+					<div class="ms-layer ms-promo-info ms-promo-info-in color-light" style="left:15px; top:210px"
+					data-effect="bottom(40)"
+					data-duration="2000"
+					data-delay="1000"
+					data-ease="easeOutExpo"
+					><span class="color-green">Online</span> Certificados</div>
+
+					<div class="ms-layer ms-promo-sub color-light" style="left:15px; top:310px"
+					data-effect="bottom(40)"
+					data-duration="2000"
+					data-delay="1300"
+					data-ease="easeOutExpo"
+					></div>
+
+
+					<a class="ms-layer btn-u" style="left:15px; top:390px" href="cursos.html"
+					data-effect="bottom(40)"
+					data-duration="2000"
+					data-delay="1300"
+					data-ease="easeOutExpo"
+					>LEER MÁS</a>
+
+				</div>
+
+				<div class="ms-slide" style="z-index: 13">
+					<img src="assets/plugins/blank.gif" data-src="assets/img/img4.jpg" alt="">
+
+					
+
+				
+
+				</div>
+
+				<div class="ms-slide" style="z-index: 12">
+					<img src="assets/plugins/blank.gif" data-src="assets/img/img3.jpg" alt="">
+
+				</div>
+
+				
+			</div>
+		</div>
+		<!-- end of masterslider -->
+	</div>
+	<!--=== End Slider ===-->
+
+		</div><!--/wrapper-->
+	<div class="container mt-30">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4">
+					<a href="cursos-bloque.html">
+						<div class="box" style="background-color:#285c67;">
+							<div class="boxTitle">Todos</div>
+							<div class="boxFooter"><hr>Cursos Certificados por la UNI</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<a href="cursos-bloque.html">
+						<div class="box" style="background-color:#b0babc;">
+							<div class="boxTitle">Programación</div>
+							<div class="boxFooter"><hr>Cursos Certificados por la UNI</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<a href="cursos-bloque.html">
+						<div class="box" style="background-color:#0fae92;">
+							<div class="boxTitle">BBDD y Redes</div>
+							<div class="boxFooter"><hr>Cursos Certificados por la UNI</div>
+						</div>
+					</a>
 				</div>
 			</div>
-		</div><!--/container-->
-		<!--=== End Search Block ===-->
-		<h2 class="text-center">Todos los cursos certificados por la Universidad Nacional de Ingeniería</h2>
-		<!--=== Container Part ===-->
-	<div class="container content-md">
-
-		<ul class="row block-grid-v2">
-			<li class="col-md-4 col-sm-6 md-margin-bottom-30">
-				<a href=""><div class="easy-block-v1">
-					<img class="img-responsive" src="assets/img/img12.jpg" alt="">
-					<div class="easy-block-v1-badge rgba-purple">Programación</div>
-				</div>
-				<div class="block-grid-v2-info rounded-bottom">
-					<h3><a href="cursos-bloque.html">Programación</a></h3>
-					<p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
-				</div>
-				</a>
-			</li>
-			<li class="col-md-4 col-sm-6 md-margin-bottom-30">
-				<div class="easy-block-v1">
-					<img class="img-responsive" src="assets/img/cursos/pe38.jpg" alt="">
-					<div class="easy-block-v1-badge rgba-blue">BBDD y Redes</div>
-				</div>
-				<div class="block-grid-v2-info rounded-bottom">
-					<h3><a href="cursos-bloque.html">BBDD y Redes</a></h3>
-					<p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
-				</div>
-			</li>
-			<li class="col-md-4 col-sm-12">
-				<div class="easy-block-v1">
-					<img class="img-responsive" src="assets/img/cursos/pe18.jpg" alt="">
-					<div class="easy-block-v1-badge rgba-red">Sistemas</div>
-				</div>
-				<div class="block-grid-v2-info rounded-bottom">
-					<h3><a href="cursos-bloque.html">Sistemas</a></h3>
-					<p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
-				</div>
-			</li>
-		</ul>
-		<ul class="row block-grid-v2">
-			<li class="col-md-4 col-sm-6 md-margin-bottom-30">
-				<div class="easy-block-v1">
-					<img class="img-responsive" src="assets/img/cursos/pe57.jpg" alt="">
-					<div class="easy-block-v1-badge rgba-purple">Negocios y Economía</div>
-				</div>
-				<div class="block-grid-v2-info rounded-bottom">
-					<h3><a href="cursos-bloque.html">One Page Template</a></h3>
-					<p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
-				</div>
-			</li>
-			<li class="col-md-4 col-sm-6 md-margin-bottom-30">
-				<div class="easy-block-v1">
-					<img class="img-responsive" src="assets/img/cursos/pe99.jpg" alt="">
-					<div class="easy-block-v1-badge rgba-blue">Docencia y TIC's</div>
-				</div>
-				<div class="block-grid-v2-info rounded-bottom">
-					<h3><a href="cursos-bloque.html">Mockup Design</a></h3>
-					<p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
-				</div>
-			</li>
-			<li class="col-md-4 col-sm-12">
-				<div class="easy-block-v1">
-					<img class="img-responsive" src="assets/img/cursos/pe91.jpg" alt="">
-					<div class="easy-block-v1-badge rgba-red">Markéting y Diseño Digital</div>
-				</div>
-				<div class="block-grid-v2-info rounded-bottom">
-					<h3><a href="cursos-bloque.html">HTML5/CSS3 + PHP</a></h3>
-					<p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
-				</div>
-			</li>
-		</ul>
-		<ul class="row block-grid-v2">
-			<li class="col-md-4 col-sm-6 md-margin-bottom-30">
-				<div class="easy-block-v1">
-					<img class="img-responsive" src="assets/img/cursos/pe131.jpg" alt="">
-					<div class="easy-block-v1-badge rgba-purple">Ingeniería y Multimedia</div>
-				</div>
-				<div class="block-grid-v2-info rounded-bottom">
-					<h3><a href="cursos-bloque.html">One Page Template</a></h3>
-					<p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
-				</div>
-			</li>
-			<li class="col-md-4 col-sm-6 md-margin-bottom-30">
-				<div class="easy-block-v1">
-					<img class="img-responsive" src="assets/img/cursos/pe138.jpg" alt="">
-					<div class="easy-block-v1-badge rgba-blue">Gestión de Proyectos y Ofimática</div>
-				</div>
-				<div class="block-grid-v2-info rounded-bottom">
-					<h3><a href="cursos-bloque.html">Mockup Design</a></h3>
-					<p>Excepturi sint occaecati cupiditate non provident, at vero eos et accusamus et iusto odio..</p>
-				</div>
-			</li>
-		</ul>
-	</div><!--/container-->
-	<!--=== Container Part ===-->
-		
-		<!-- End Top Categories -->
-	</div><!--/container-->
-	<!--=== End Content ===-->
+			
+		</div>	
 
 
 
-	<!-- JS Global Compulsory -->
-	<script type="text/javascript" src="assets/plugins/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/jquery-migrate.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/bootstrap.min.js"></script>
-	<!-- JS Implementing Plugins -->
-	<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
-	<script type="text/javascript" src="assets/plugins/smoothScroll.js"></script>
-	<script type="text/javascript" src="assets/plugins/jquery.parallax.js"></script>
-	<script type="text/javascript" src="assets/plugins/jquery.counterup.min.js"></script>
+		<!-- JS Global Compulsory -->
+		<script type="text/javascript" src="assets/plugins/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-migrate.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/bootstrap.min.js"></script>
+		<!-- JS Implementing Plugins -->
+		<script src="assets/plugins/masterslider.min.js"></script>
 	
-	<!-- JS Customization -->
-	<script type="text/javascript" src="assets/js/custom.js"></script>
-	<!-- JS Page Level -->
-	<script type="text/javascript" src="assets/js/app.js"></script>
-	<script type="text/javascript" src="assets/plugins/style-switcher.js"></script>
-	
+		<script type="text/javascript" src="assets/plugins/jquery.counterup.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery.fancybox.pack.js"></script>
+		<script type="text/javascript" src="assets/plugins/owl.carousel.js"></script>
+		<!-- JS Customization -->
+		<script type="text/javascript" src="assets/js/custom.js"></script>
+		<!-- JS Page Level -->
+		<script type="text/javascript" src="assets/js/app.js"></script>
+		<script type="text/javascript" src="assets/plugins/fancy-box.js"></script>
+		<script type="text/javascript" src="assets/plugins/owl-carousel.js"></script>
+		<script type="text/javascript" src="assets/plugins/master-slider-fw.js"></script>
+		<script type="text/javascript" src="assets/plugins/style-switcher.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				App.init();
+				App.initCounter();
+				App.initParallaxBg();
+				FancyBox.initFancybox();
+				MSfullWidth.initMSfullWidth();
+				OwlCarousel.initOwlCarousel();
+				StyleSwitcher.initStyleSwitcher();
+			});
+		</script>
+
 <!--[if lt IE 9]>
 	<script src="assets/plugins/respond.js"></script>
 	<script src="assets/plugins/html5shiv.js"></script>

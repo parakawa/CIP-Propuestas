@@ -128,3 +128,13 @@ a{
 .mt-30{
   margin-top: 30px;
 }
+
+@media (min-width: 992px){ 
+.header-fixed .header-v6.header-sticky-no-fixed{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 999;
+ }
+}
