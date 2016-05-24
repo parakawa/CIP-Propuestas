@@ -264,6 +264,8 @@ var App = function () {
 		},
 
 		// Parallax Backgrounds
+
+		
 		initParallaxBg: function () {
 			jQuery(window).load(function() {
 				jQuery('.parallaxBg').parallax("50%", 0.2);

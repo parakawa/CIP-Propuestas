@@ -148,6 +148,10 @@ a{
   text-align: center;
 }
 
+.ms-layer.btn-u:hover{
+  background-color: #285c67;
+}
+
 hr {
   
   margin: 20px auto;
