@@ -8,3 +8,10 @@ Home
 -banner: page_home8.html
 -section cursos: page_home8.html
 -home: page_home14.html  // slider
+
+Cambio de colores principales:
+
+-custom.css
+-app.css
+-style.css
+-header-v6.css

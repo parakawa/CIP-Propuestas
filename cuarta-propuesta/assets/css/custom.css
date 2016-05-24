@@ -52,7 +52,7 @@
     font-weight: 400;
     padding: 6px 13px;
     position: relative;
-    background: #72c02c;
+    background: #009EE0;
     white-space: nowrap;
     display: inline-block;
     text-decoration: none;
@@ -97,6 +97,10 @@ a{
   line-height: 19px;
 }
 
+.box:hover{
+  opacity: 0.6;
+}
+
 .boxTitle {
   width: 100%;
   position: absolute;
@@ -129,6 +133,28 @@ a{
   margin-top: 30px;
 }
 
+.btn-u.btn-u-lg:hover{
+  background-color: #285C67;
+}
+
+.rounded-x.fa.fa-link:hover{
+  background-color: #009EE0;
+}  
+
+.sectionTitle {
+  margin: 50px 0;
+  font-size: 32px;
+  line-height: 52px;
+  text-align: center;
+}
+
+hr {
+  width: 80%;
+  margin: 20px auto;
+  border-top: 1px solid #d5d6d7;
+  border-bottom: 1px solid #ffffff;
+}
+
 @media (min-width: 992px){ 
 .header-fixed .header-v6.header-sticky-no-fixed{
   top: 0;
@@ -138,3 +164,4 @@ a{
   z-index: 999;
  }
 }
+
