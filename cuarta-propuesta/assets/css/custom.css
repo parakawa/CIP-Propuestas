@@ -169,3 +169,27 @@ hr {
  }
 }
 
+@media screen and (min-width: 200px) {
+  
+  #myModal .modal-dialog  {width:90%;}
+
+}
+
+.block-grid-v2 a:hover{
+  text-decoration: none;
+}
+
+.block-grid-v2 img{
+ max-width: 100%;
+  -o-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.block-grid-v2 img:hover{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
