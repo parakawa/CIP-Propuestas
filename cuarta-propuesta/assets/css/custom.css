@@ -193,3 +193,7 @@ hr {
   -o-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+.pt-35{
+  padding-top: 35px;
+}
