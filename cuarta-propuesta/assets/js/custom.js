@@ -9,3 +9,7 @@
     slideMargin: 0
   });
 });*/
+
+$('#modal1').on('shown.bs.modal', function () {
+  $('#curso').focus()
+})
