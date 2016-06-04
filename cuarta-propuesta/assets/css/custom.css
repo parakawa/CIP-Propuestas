@@ -69,6 +69,7 @@
 
 a{
   color: black;
+  font-family: Futura;
 }
 
 .modalDialog {
@@ -142,7 +143,7 @@ a{
 }  
 
 .sectionTitle {
-  margin: 50px 0;
+  margin: 20px 0;
   font-size: 32px;
   line-height: 52px;
   text-align: center;
@@ -175,6 +176,11 @@ hr {
 
 }
 
+@font-face{
+  font-family: FuturaBold;
+  src:url(./fonts/Futura Bold Font/FuturaT_Bold.ttf);
+}
+
 .block-grid-v2 a:hover{
   text-decoration: none;
 }
@@ -196,4 +202,17 @@ hr {
 
 .pt-35{
   padding-top: 35px;
+}
+
+.header-v6 .navbar-nav > li > a {
+  font-size: 16px;
+}
+
+.sectionTitle hr{
+  width: 80%;
+
+}
+
+.header-fixed .header-v6.header-classic-white .navbar-nav .active > a{
+  font-size: 18px;
 }
