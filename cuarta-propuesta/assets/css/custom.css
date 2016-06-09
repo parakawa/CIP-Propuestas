@@ -216,3 +216,22 @@ hr {
 .header-fixed .header-v6.header-classic-white .navbar-nav .active > a{
   font-size: 18px;
 }
+
+.header-v6.header-classic-white.header-sticky{
+  background-color: black;
+}
+
+
+.header-v6.header-classic-white .navbar{
+  background: black;
+}
+
+.header-v6.header-classic-white .navbar li a{
+  color:white;
+}
+
+@media (max-width: 991px){ 
+.header-v6 .navbar-nav > li a {
+  border-bottom: none;
+  }
+}
