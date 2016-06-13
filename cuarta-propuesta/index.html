@@ -29,7 +29,6 @@
 	
 	<link rel="stylesheet" href="assets/plugins/masterslider.css">
 	<link rel='stylesheet' href="assets/plugins/style.css">
-	<link rel='stylesheet' href="assets/plugins/jquery.bxslider.css">
 
 	<!-- CSS Pages Style -->
 	<link rel="stylesheet" href="assets/css/page_one.css">
@@ -37,7 +36,7 @@
 	<!-- CSS Theme -->
 	<link rel="stylesheet" href="assets/css/default.css" id="style_color">
 	<link rel="stylesheet" href="assets/css/dark.css">
-
+	<link rel="stylesheet" href="assets/css/jquery.bxslider.css">
 	<!-- CSS Customization -->
 	<link rel="stylesheet" href="assets/css/custom.css">
 </head>
@@ -124,91 +123,45 @@
 		</div>
 		<!--=== End Header v6 ===-->
 
-		<!--=== Slider ===-->
-		<div class="ms-layers-template">
-			<!-- masterslider -->
-			<div class="master-slider ms-skin-black-2 round-skin" id="masterslider">
-				<div class="ms-slide" style="z-index: 10">
-					<img src="assets/plugins/blank.gif" data-src="assets/img/inicio.jpg" alt="">
-					<div class="ms-layer ms-promo-info color-light" style="left:150px; top:160px"
-					data-effect="bottom(40)"
-					data-duration="2000"
-					data-delay="700"
-					data-ease="easeOutExpo"
-					>Cursos</div>
-
-					<div class="ms-layer ms-promo-info ms-promo-info-in color-light" style="left:150px; top:210px"
-					data-effect="bottom(40)"
-					data-duration="2000"
-					data-delay="1000"
-					data-ease="easeOutExpo"
-					><span class="color-green">Online</span> Certificados</div>
-
-					<div class="ms-layer ms-promo-sub color-light" style="left:150px; top:310px"
-					data-effect="bottom(40)"
-					data-duration="2000"
-					data-delay="1300"
-					data-ease="easeOutExpo"
-					></div>
-
-
-					<a class="ms-layer btn-u" style="left:150px; top:390px" href="cursos.html"
-					data-effect="bottom(40)"
-					data-duration="2000"
-					data-delay="1300"
-					data-ease="easeOutExpo"
-					>LEER MÁS</a>
-
-
-
-				</div>
-
-				<div class="ms-slide" style="z-index: 13">
-					<img src="assets/plugins/blank.gif" data-src="assets/img/servicios.jpg" alt="">
-					
-					
-
-					<h3 class="ms-layer ms-promo-info-in color-light"  style="left:350px; top:170px;"
-					data-effect="right(40)"
-					data-duration="2300"
-					data-delay="1300"
-					data-ease="easeOutExpo"
-					>La mejor formación</h3>
-
-
-					<h3 class="ms-layer ms-promo-info-in color-darker"  style="left:350px; top:290px"
-					data-effect="left(40)"
-					data-duration="2300"
-					data-delay="1400"
-					data-ease="easeOutBack"
-					>Nuevas Tecnologías<span class="color-light"></span></h3>
-
-					
-					
-		
-				
-
-				</div>
-
-				<div class="ms-slide" style="z-index: 12">
-					<img src="assets/plugins/blank.gif" data-src="assets/img/certificados.jpg" alt="">
-
-				</div>
-
-				
-			</div>
+		<div id="slider">
+		    <div><img src="assets/img/inicio.jpg"/><div class="img-slider"><img src="assets/img/tecknia3-01.jpg" alt="" style="z-index:100"></div></div>
+		    <div><img src="assets/img/certificados.jpg"/><img src="assets/img/tecknia3-01.jpg" alt=""></div>
+		    <div><img src="assets/img/servicios.jpg"/><img src="assets/img/tecknia3-01.jpg" alt=""></div>
 		</div>
-		<!-- end of masterslider -->
 	</div>
 	<!--=== End Slider ===-->
 	<div class="sectionTitle">
 	Programa Internacional de Formación Digital <br>
-		<strong>Áreas de Formación</strong> <hr>
 	</div>
-
+	<h3 class="text-center titulo">CURSOS DESTACADOS</h3>
+	
 		<!--/wrapper-->
 	<div class="container mt-30">
-			<div class="row sliderCursos">
+		<div id="slider6">
+		  <div class="slide"><a href=""><div class="easy-block-v1">
+							<img class="img-responsive" src="assets/img/cursos/pe38.jpg" alt="">
+							<div class="easy-block-v1-badge rgba-blue">BBDD y Redes</div>
+						</a> </div> </div>
+		  <div class="slide"><a href=""><div class="easy-block-v1">
+							<img class="img-responsive" src="assets/img/cursos/pe18.jpg" alt="">
+							<div class="easy-block-v1-badge rgba-red">Sistemas</div>
+						</div></a></div>
+		  <div class="slide"><a href=""><div class="easy-block-v1">
+							<img class="img-responsive" src="assets/img/cursos/pe57.jpg" alt="">
+							<div class="easy-block-v1-badge rgba-purple">Negocios y Economía</div>
+						</div></a></div>
+		  <div class="slide"><a href=""><div class="easy-block-v1">
+							<img class="img-responsive" src="assets/img/cursos/pe99.jpg" alt="">
+							<div class="easy-block-v1-badge rgba-blue">Docencia y TIC's</div>
+						</div></a></div>
+		  <div class="slide"><a href=""><div class="easy-block-v1">
+							<img class="img-responsive" src="assets/img/cursos/pe91.jpg" alt="">
+							<div class="easy-block-v1-badge rgba-red">Markéting y Diseño Digital</div>
+						</div></a></div>
+		</div>
+
+	<h3 class="text-center titulo">ÁREAS DE FORMACIÓN</h3>
+			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-4">
 					<a href="cursos-bloque.html">
 						<div class="box" style="background-color:#285c67;">
@@ -259,7 +212,7 @@
 				</div>
 
 			</div>
-			<div class="row sliderCursos">
+			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-4">
 					<a href="cursos-bloque.html">
 						<div class="box" style="background-color:#285c67;">
@@ -309,7 +262,7 @@
 					</a>
 				</div>	
 			</div>
-			<div class="row sliderCursos">
+			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-4">
 					<a href="cursos-bloque.html">
 						<div class="box" style="background-color:#285c67;">
@@ -418,7 +371,7 @@
 		<script type="text/javascript" src="assets/plugins/bootstrap.min.js"></script>
 		<!-- JS Implementing Plugins -->
 		<script src="assets/plugins/masterslider.min.js"></script>
-		<script src="assets/plugins/jquery.bxslider.min.js"></script>
+		
 	
 		<script type="text/javascript" src="assets/plugins/jquery.counterup.min.js"></script>
 		<script type="text/javascript" src="assets/plugins/jquery.fancybox.pack.js"></script>
@@ -431,17 +384,17 @@
 		<script type="text/javascript" src="assets/plugins/owl-carousel.js"></script>
 		<script type="text/javascript" src="assets/plugins/master-slider-fw.js"></script>
 		<script type="text/javascript" src="assets/plugins/style-switcher.js"></script>
-
+		<script type="text/javascript" src="assets/js/jquery.bxslider.min.js"></script>
 		<script type="text/javascript" src="assets/js/custom.js"></script>
 		<script type="text/javascript">
-			jQuery(document).ready(function() {
-				App.init();
-				App.initCounter();
-				
-				FancyBox.initFancybox();
-				MSfullWidth.initMSfullWidth();
-				OwlCarousel.initOwlCarousel();
-				StyleSwitcher.initStyleSwitcher();
+		$(document).ready(function(){
+			  $('#slider6').bxSlider({
+			    slideWidth: 300,
+			    minSlides: 2,
+			    maxSlides: 3,
+			    startSlide: 2,
+			    slideMargin: 10
+			  });
 			});
 		</script>
 

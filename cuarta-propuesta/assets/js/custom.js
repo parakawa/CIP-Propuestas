@@ -1,14 +1,5 @@
 /* Write here your custom javascript codes */
 
-/*$(document).ready(function(){
-  $('.sliderCursos').bxSlider({
-    slideWidth: 350,
-    minSlides: 1,
-    maxSlides: 3,
-    moveSlides: 1,
-    slideMargin: 0
-  });
-});*/
 
 $('#modal1').on('shown.bs.modal', function () {
   $('#curso').focus()
@@ -24,4 +15,12 @@ $('#factura').change(function() {
            $('#detalle-factura').show(500)
         }
   });
+
+$(function(){
+    $('#slider div:gt(0)').hide();
+    setInterval(function(){
+      $('#slider div:first-child').fadeOut(0)
+         .next('div').fadeIn(1000)
+         .end().appendTo('#slider');}, 4000);
+});
 
