@@ -246,9 +246,9 @@ hr {
   line-height: 5px;
 }
 
-.cabecera img{
-  width: 500px;
-  height: 185px;
+.cabecera img {
+  width: 398px;
+  height: 101px;
 }
 
 .cabecera .title h2{
@@ -393,7 +393,7 @@ ul.detalle-curso li{
 .opacity {
   width: 100%;
   background: black;
-  opacity: 0.6;
+  opacity: 0.75;
   padding: 20px 0;
 }
 
