@@ -217,21 +217,88 @@ hr {
   font-size: 18px;
 }
 
-.header-v6.header-classic-white.header-sticky{
+/*.header-v6.header-classic-white.header-sticky{
   background-color: black;
 }
 
 
 .header-v6.header-classic-white .navbar{
   background: black;
-}
+}*/
 
-.header-v6.header-classic-white .navbar li a{
+/*.header-v6.header-classic-white .navbar li a{
   color:white;
-}
+}*/
 
 @media (max-width: 991px){ 
 .header-v6 .navbar-nav > li a {
   border-bottom: none;
   }
+}
+
+.bg-gray{
+  background-color: #F5F7F8;
+}
+
+.pd-30{
+  padding: 30px 50px;
+}
+
+.learning img{
+  width: 250px;
+  height: 250px;
+}
+
+/*Registro*/
+
+.fieldset header {
+  color: inherit;
+  display: block;
+  font-size: 20px;
+  background: #fff;
+  font-weight: 400;
+  padding: 8px 30px;
+}
+
+.fieldset {
+  box-shadow: none;
+  border: 1px solid #eee;
+}
+
+ul.detalle-curso li::before {
+  content: "\f105";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  margin-right: 7px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul.detalle-curso li{
+  font-size: 16px;
+}
+
+.terminos{
+  padding: 20px 30px;
+  height: 300px;
+  overflow-y: scroll;
+  text-align: justify;
+}
+
+.fieldset form{
+  border-top: none;
+  border-bottom: none;
+  padding: 10px 30px;
+}
+
+.fieldset button{
+  margin: 10px 30px;
+}
+
+.pago .fieldset h3{
+  font-weight: 700;
 }

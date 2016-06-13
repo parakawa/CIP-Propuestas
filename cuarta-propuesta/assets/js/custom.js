@@ -13,3 +13,8 @@
 $('#modal1').on('shown.bs.modal', function () {
   $('#curso').focus()
 })
+
+$('#factura').on('click', function () {
+  $('#detalle-factura:hidden').show(500)
+})
+
