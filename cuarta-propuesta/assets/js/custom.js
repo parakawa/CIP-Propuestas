@@ -14,7 +14,14 @@ $('#modal1').on('shown.bs.modal', function () {
   $('#curso').focus()
 })
 
-$('#factura').on('click', function () {
-  $('#detalle-factura:hidden').show(500)
+
+$('#inscribirse').on('click', function () {
+  $('.pago').removeClass("opacity-pago");
 })
+
+$('#factura').change(function() {
+        if($(this).is(":checked")) {
+           $('#detalle-factura').show(500)
+        }
+  });
 

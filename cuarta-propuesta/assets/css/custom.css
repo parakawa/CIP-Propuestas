@@ -302,3 +302,28 @@ ul.detalle-curso li{
 .pago .fieldset h3{
   font-weight: 700;
 }
+
+.pago .fieldset img{
+  width: 100%;
+}
+
+.pago .fieldset{
+  padding: 10px 30px;
+}
+
+.visa img{
+  border: solid 1px #F7B617;
+  width: 100px;
+  height: 90px;
+  padding: 10px;
+} 
+
+.pago .fieldset .consultas img{
+  width: 28px;
+  height: 28px;
+  margin-left: 20px;
+}
+
+.opacity-pago{
+  opacity: 0.3;
+}
