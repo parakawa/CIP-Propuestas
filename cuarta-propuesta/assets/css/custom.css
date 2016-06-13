@@ -249,6 +249,42 @@ hr {
   height: 250px;
 }
 
+/*Header*/
+.cabecera{
+  background-color: black;
+  padding: 14px 35px;
+  line-height: 5px;
+}
+
+.cabecera img{
+  width: 100px;
+  height: 100px;
+}
+
+.cabecera .title h2{
+  padding: 0px 21px;
+  color: white;
+  margin: 0;
+}
+
+.cabecera .title{
+  padding: 7px 0;
+}
+
+@media (max-width: 1120px){
+.cabecera .title h2{
+  padding: 0px 70px;
+  }
+
+}
+
+
+@media (min-width: 992px){
+.header-v6 .navbar-nav > li > a {
+  padding: 4px 11px;
+  line-height: 54px;
+  }
+}
 /*Registro*/
 
 .fieldset header {
@@ -326,4 +362,37 @@ ul.detalle-curso li{
 
 .opacity-pago{
   opacity: 0.3;
+}
+
+/*Contacto*/
+
+.contactus{
+  background-image: url("../img/contactus.jpg");
+  background-size: cover;
+}
+.opacity {
+  width: 100%;
+  background: black;
+  opacity: 0.7;
+  padding: 20px 0;
+}
+
+.contactus h3{
+  padding-bottom: 2%;
+}
+.contactus .input, .message{
+  padding: 2%;
+  opacity: 0.4;
+    display: block;
+    width: 85%; 
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+.message{
+    height: 190px;
+}
+.contactus button{
+  border: none;
+  padding: 10px 22px;
+  font-size: 1.3em;
 }
