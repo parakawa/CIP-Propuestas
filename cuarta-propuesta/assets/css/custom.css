@@ -231,9 +231,13 @@ hr {
   padding: 30px 50px;
 }
 
+
+
 .learning img{
   width: 250px;
   height: 250px;
+  padding: 7px;
+  border:solid 1px #F7B617;
 }
 
 /*Header*/
@@ -244,8 +248,8 @@ hr {
 }
 
 .cabecera img{
-  width: 100px;
-  height: 100px;
+  width: 500px;
+  height: 150px;
 }
 
 .cabecera .title h2{
@@ -258,11 +262,18 @@ hr {
   padding: 7px 0;
 }
 
-@media (max-width: 1120px){
-.cabecera .title h2{
-  padding: 0px 70px;
+@media (max-width: 596px){ 
+.cabecera img {
+  width: 320px;
+  height: 150px;
   }
+}
 
+@media (max-width: 380px){ 
+.cabecera img {
+  width: 250px;
+  height: 100px;
+  }
 }
 
 
@@ -284,21 +295,6 @@ margin: 0 auto;
 padding: 0;
 }
 
-#slider .img-slider img{
-position: absolute;
-bottom: 30px;
-left: 0;
-display: block;
-width: 400px;
-height: 24px;
-margin:0;
-padding: 5px 0;
-color: #eee;
-background: #990000;
-font-size: 22px;
-line-height:22px;
-text-align:center;
-}
 
 /*Pre-slider*/
 .titulo{
@@ -394,7 +390,7 @@ ul.detalle-curso li{
 .opacity {
   width: 100%;
   background: black;
-  opacity: 0.7;
+  opacity: 0.6;
   padding: 20px 0;
 }
 
@@ -416,4 +412,8 @@ ul.detalle-curso li{
   border: none;
   padding: 10px 22px;
   font-size: 1.3em;
+}
+
+.contactus a{
+  text-decoration: none;
 }
