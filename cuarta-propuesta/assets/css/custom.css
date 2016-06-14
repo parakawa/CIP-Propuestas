@@ -26,7 +26,7 @@
 
 
 .cbp-l-grid-agency-title.no-overflow{
-	white-space: normal;
+  white-space: normal;
   height: 60px;
    display: flex;
   align-items: center;
@@ -37,11 +37,11 @@
 }
 
 .cbp-title-dark .duration{
-	padding: 6px 0;
+  padding: 6px 0;
 }
 
 .cbp-title-dark .duration p{
-	margin: 0;
+  margin: 0;
 }
 
 .certificado {
