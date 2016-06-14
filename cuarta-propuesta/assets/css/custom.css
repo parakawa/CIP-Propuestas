@@ -1,3 +1,18 @@
+#contact-us .who li i{
+  color: #FFF;
+  font-size: 20px;
+  border-radius: 100%;
+  border: solid 2px rgba(255, 255, 255, 0.125);
+  padding: 5px;
+  width: 34px;
+  height: 34px;
+}
+
+#contact-us .who li:hover i, .who li:hover a, .who li a {
+  color: #FFF;
+  font-size: 20px;
+}
+
 .margin-top130{
   margin-top: 130px;
 }
