@@ -264,9 +264,6 @@ hr {
   background-color: black;
   padding: 0px 35px;
   line-height: 5px;
-  position: fixed;
-  width: 100%;
-  z-index: 10000;
 }
 
 .cabecera img {
