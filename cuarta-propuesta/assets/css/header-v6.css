@@ -550,7 +550,7 @@
 	.header-v6 .navbar-nav > .active > a:hover, 
 	.header-v6 .navbar-nav > .active > a:focus {
 		color: black;
-		font-weight: 200;
+		font-weight: bold;
 		background: none;
 	}
 
