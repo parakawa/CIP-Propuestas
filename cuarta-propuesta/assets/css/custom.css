@@ -413,7 +413,7 @@ ul.detalle-curso li{
 }
 /*----4 Learning-------*/
 .for-learning{
-  background: url('../img/video41.jpg') no-repeat center center; 
+  background: url('../img/video43.jpg') no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -423,7 +423,7 @@ ul.detalle-curso li{
 
 .opacity-learning{
   background-color: black;
-  opacity:0.2;
+  opacity:0.7;
   height: 100%;
 }
 
@@ -464,7 +464,7 @@ ul.detalle-curso li{
 }
 
 .instructor{
-  background: url('../img/instructor4.jpg') no-repeat center center; 
+  background: url('../img/instructor41.jpg') no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
