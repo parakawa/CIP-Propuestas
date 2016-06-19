@@ -223,6 +223,10 @@ hr {
   padding-top: 35px;
 }
 
+.white{
+  color: white;
+}
+
 .header-v6 .navbar-nav > li > a {
   font-size: 16px;
   font-family: Arial;
@@ -407,7 +411,70 @@ ul.detalle-curso li{
 .opacity-pago{
   opacity: 0.3;
 }
+/*----4 Learning-------*/
+.for-learning{
+  background: url('../img/video41.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+}
 
+.opacity-learning{
+  background-color: black;
+  opacity:0.2;
+  height: 100%;
+}
+
+.for-learning h2, .instructor h2{
+  padding-top: 80px;
+  font-size: 4rem;
+  text-shadow: 0 2px 4px #fff;
+  width: 100%;
+  margin: 0.5rem 0;
+  font-weight: 800;
+}
+
+.btn-primary{
+  color: #fff;
+  font-family: Arial,sans-serif;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  border-radius: 4px;
+  padding: 10px 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 42px;
+}
+
+.b-celeste{
+   background-color: #108eff;
+   border-color: #108eff;
+}
+
+/*----Instructor----*/
+.opacity-instructor{
+  background-color: black;
+  opacity:0.2;
+}
+
+.instructor{
+  background: url('../img/instructor4.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+}
+
+.instructor h2{
+  text-shadow:none;
+}
 /*------- SECTION CONTAC-US---------*/
 #contact-us {
   background-image: url('../img/contactus.jpg');
