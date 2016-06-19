@@ -230,6 +230,7 @@ hr {
 .header-v6 .navbar-nav > li > a {
   font-size: 16px;
   font-family: Arial;
+  font-weight: bold !important;
 }
 
 .sectionTitle hr{
@@ -255,6 +256,9 @@ hr {
   padding: 30px 50px;
 }
 
+.mg-t130{
+  margin-top: 130px;
+}
 
 
 .learning img{
@@ -268,6 +272,11 @@ hr {
   background-color: black;
   padding: 0px 35px;
   line-height: 5px;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+  top: 0;
+  left: 0;
 }
 
 .cabecera img {
