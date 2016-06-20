@@ -422,11 +422,12 @@ ul.detalle-curso li{
 }
 /*----4 Learning-------*/
 .for-learning{
-  background: url('../img/video43.jpg') no-repeat center center; 
+  background: url('../img/video45.jpg') no-repeat center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: 0px 0px;
   height: 300px;
 }
 
@@ -439,7 +440,7 @@ ul.detalle-curso li{
 .for-learning h2, .instructor h2{
   padding-top: 80px;
   font-size: 4rem;
-  text-shadow: 0 2px 4px #fff;
+  /*text-shadow: 0 2px 4px #fff;*/
   width: 100%;
   margin: 0.5rem 0;
   font-weight: 800;
