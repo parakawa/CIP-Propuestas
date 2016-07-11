@@ -32,8 +32,6 @@
   align-items: center;
   justify-content: center;
   font-weight: 700;
-
-
 }
 
 .cbp-title-dark .duration{
@@ -44,6 +42,31 @@
   margin: 0;
 }
 
+.title-formacion{
+  margin-top: 84px;
+}
+
+.title-direccion{
+  margin-top: 42px;
+}
+
+.title-certificaciones{
+  font-weight: 800;
+  font-size: 25px;
+  color:#000038;
+}
+
+.certificaciones-internacionales{
+  background-color: #F7B617;
+  color: white;
+  width: 71%;
+  margin: 35px auto;
+  padding: 6px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 21px;
+
+}
 .certificado {
       background-color: white;
       color: white;
