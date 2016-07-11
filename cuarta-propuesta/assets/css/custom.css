@@ -535,6 +535,8 @@ ul.detalle-curso li{
 }
 #contact-us h2 {
   margin-bottom: 2%;
+  font-size: 25px;
+  font-weight: 700;
 }
 #contact-us .container {
   padding-top: 1%;
@@ -553,6 +555,10 @@ ul.detalle-curso li{
 }
 #contact-us i {
   padding-right: 15px;
+}
+
+.mt-30{
+  margin-top: 30px;
 }
 
 /*----- FORM ------*/
