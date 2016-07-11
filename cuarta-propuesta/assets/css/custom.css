@@ -47,7 +47,10 @@
 }
 
 .title-direccion{
-  margin-top: 42px;
+  margin-top: 51px;
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
 }
 
 .title-certificaciones{
